@@ -34,7 +34,8 @@ public class MyControler {
 	public String  validate() {
 		return "login";
 	}
-	
+	public void method(){
+	}
 	@PostMapping("/equal")
 	public String equal() {
 		return "verify";
